@@ -7,9 +7,9 @@ katex: True
 ---
 ## What does *e* actually represent?
 
-I've been using $$e$$ for years. Exponential growth and decay, compound interest, calculus especially, and statistics. But for some reason, only recently I asked myself what $e$ really means. What does it represent? There has to be some deep meaning behind it. But I struggled to find an intuitive explanation. Every video either told me its origin, its derivation, or its nifty uses.
+I've been using $$e$$ for years. Exponential growth and decay, compound interest, calculus especially, and statistics. But for some reason, only recently I asked myself what $$e$$ really means. What does it represent? There has to be some deep meaning behind it. But I struggled to find an intuitive explanation. Every video either told me its origin, its derivation, or its nifty uses.
 
-If you're like me, I encourage you to keep reading, or watch [this video by FoolishChemist](https://www.youtube.com/watch?v=rBhJhD0ITuY). It's the first video that made $e$ click for me and is the basis for my own personal explanation below. 
+If you're like me, I encourage you to keep reading, or watch [this video by FoolishChemist](https://www.youtube.com/watch?v=rBhJhD0ITuY). It's the first video that made $$e$$ click for me and is the basis for my own personal explanation below. 
 
 ---
 
@@ -18,7 +18,7 @@ $$e$$ as we know it is $$\approx2.718281828459045$$ But, what does it represent?
 
 Well we know what $$\pi$$ represents. Simple: the ratio of a circle's circumference to its diameter. ($$\pi$$ also pops up in other areas)
 
-![alt text](/assets/img/image-1.png)
+![alt text](/assets/img/image_pi.png)
 
 As far as I can tell it's just a physical relationship between two things in our universe that we express numerically in base-10. $$\pi$$ could be expressed in base-3 ($$\approx10.01021101$$) just the same. Aliens will know the same value, maybe they'll have a cooler name for it.
 
