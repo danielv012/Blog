@@ -18,7 +18,7 @@ $$e$$ as we know it is $$\approx2.718281828459045$$ But, what does it represent?
 
 Well we know what $$\pi$$ represents. Simple: the ratio of a circle's circumference to its diameter. ($$\pi$$ also pops up in other areas)
 
-![alt text](/assets/img/image_pi.png)
+![alt text](/Blog/assets/img/image_pi.png)
 
 As far as I can tell it's just a physical relationship between two things in our universe that we express numerically in base-10. $$\pi$$ could be expressed in base-3 ($$\approx10.01021101$$) just the same. Aliens will know the same value, maybe they'll have a cooler name for it.
 
