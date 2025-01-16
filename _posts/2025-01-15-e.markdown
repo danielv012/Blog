@@ -271,7 +271,7 @@ But google the equation for continuous compounding interest. It's the exact. sam
 
 $$P(t) = P_0e^{rt}$$
 
-But imagine now if we used $2$ instead of $e$.
+But imagine now if we used $$2$$ instead of $$e$$.
 
 $$P(t) = 50(2)^{.14*2}$$
 
