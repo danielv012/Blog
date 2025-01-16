@@ -161,10 +161,12 @@
   <link rel="stylesheet" href="{{ "/assets/css/staticman.css" | relative_url }}">
   {% endif %}
 
-  {% assign favicon_exists = site.static_files | where: "path", "/favicon.ico" | size %}
-  {% if favicon_exists == 1 %}
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
-  {% endif %}
+  <link rel="icon" sizes="16x16" type="image/ico" href="/assets/img/icon/icon-dark-16.ico" media="(prefers-color-scheme: dark)"/>
+  <link rel="icon" sizes="32x32" type="image/ico" href="/assets/img/icon/icon-dark-32.ico" media="(prefers-color-scheme: dark)"/>
+  <link rel="icon" sizes="64x64" type="image/ico" href="/assets/img/icon/icon-dark-64.ico" media="(prefers-color-scheme: dark)"/>
+  <link rel="icon" sizes="16x16" type="image/ico" href="/assets/img/icon/icon-light-16.ico" media="(prefers-color-scheme: light)"/>
+  <link rel="icon" sizes="32x32" type="image/ico" href="/assets/img/icon/icon-light-32.ico" media="(prefers-color-scheme: light)"/>
+  <link rel="icon" sizes="64x64" type="image/ico" href="/assets/img/icon/icon-light-64.ico" media="(prefers-color-scheme: light)"/>
 
   {% if page.head-extra %}
     {% for file in page.head-extra %}
@@ -181,12 +183,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
-  <!-- <script>
+  <script>
       document.addEventListener("DOMContentLoaded", function() {
           renderMathInElement(document.body, {
               // ...options...
           });
       });
-  </script> -->
+  </script>
 
 </head>
